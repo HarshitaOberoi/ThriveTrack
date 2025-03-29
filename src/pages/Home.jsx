@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { gsap } from "gsap";
 import { Bot, ArrowRight, Target, Brain } from "lucide-react";
 import { useLoading } from "../context/LoadingProvider";
+import manimage from '../assets/man-4365597_1280.png';
 import'../../src/index.css'
 
 const Home = () => {
@@ -82,7 +83,7 @@ const Home = () => {
               <span className="mr-2">Start Interview</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </button>
-            <img src="../../man-4365597_1280.png" alt="Description" class="w-64 h-auto mb-1 fixed left-80 bottom-3  opacity-65 object-cover " />
+            <img src={manimage} alt="Description" class="w-64 h-auto mb-1 fixed left-80 bottom-3  opacity-65 object-cover " />
 
           </div>
 
